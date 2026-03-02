@@ -1,10 +1,10 @@
 export const facilityData = {
-  name: "グループホーム朝日",
+  name: "グループホームあさひ",
   nameEn: "Group Home Asahi",
   type: "障害者施設グループホーム",
   openingDate: "石川県七尾市にあります",
   location: {
-    address: "石川県七尾市旭町い104-1",
+    address: "石川県七尾市旭町い部84-1",
     googleMapUrl: "https://maps.app.goo.gl/example",
     access: {
       train: "JR七尾線「七尾」駅より 車で約10分",
@@ -35,8 +35,22 @@ export const facilityData = {
     },
   ],
   capacity: {
-    total: 9,
+    total: 10,
     available: 3,
     roomType: "個室",
+  },
+  services: {
+    groupLiving: {
+      name: "共同生活援助",
+      capacity: 10,
+      breakdown: {
+        male: 5,
+        female: 5,
+      },
+    },
+    shortStay: {
+      name: "短期入所",
+      capacity: 2,
+    },
   },
 };

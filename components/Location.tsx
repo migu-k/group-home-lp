@@ -78,7 +78,7 @@ export default function Location() {
           <div className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-lg">
             <Image
               src="https://enyama.jp/senjuen/wp/wp-content/uploads/2013/05/img_yakushi_01.jpg"
-              alt="グループホーム朝日 施設外観"
+              alt="グループホームあさひ 施設外観"
               fill
               className="object-cover"
             />

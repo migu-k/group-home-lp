@@ -1,58 +1,43 @@
+export const monthlyFees = {
+  rent: 37000, // 家賃
+  meals: {
+    breakfast: 350, // 朝食
+    lunch: 550, // 昼食
+    dinner: 550, // 夕食
+    daily: 1450, // 1日合計
+    monthly: 43500, // 月額（30日換算）
+  },
+  utilities: {
+    standard: 8500, // 通常の光熱費
+    seasonal: 10000, // 夏季・冬季の光熱費（+1,500円）
+  },
+  dailySupplies: "都度", // 日用品費
+};
+
 export const pricingPlans = [
   {
-    id: "plan-a",
-    name: "プランA（月払い方式）",
-    campaign: true,
-    campaignPrice: "月額利用料 98,000円～",
-    deposit: "0円（ご契約時に敷金30万円をお預かりいたします）",
-    monthlyFee: {
-      standard: "98,000円",
-      premium: "128,000円",
-    },
-    includes: [
-      "家賃（非課税）",
-      "管理費（非課税）",
-      "水光熱費",
-      "食費",
-      "日常生活支援費",
+    id: "plan-standard",
+    name: "通常月の料金",
+    description: "春・秋の料金",
+    monthlyTotal: monthlyFees.rent + monthlyFees.meals.monthly + monthlyFees.utilities.standard,
+    breakdown: [
+      { item: "家賃", amount: monthlyFees.rent, unit: "円" },
+      { item: "食費（月額）", amount: monthlyFees.meals.monthly, unit: "円", note: "朝350円・昼550円・夕550円" },
+      { item: "光熱費", amount: monthlyFees.utilities.standard, unit: "円" },
     ],
-    notes: "※月額利用料は居室タイプにより異なります",
+    total: monthlyFees.rent + monthlyFees.meals.monthly + monthlyFees.utilities.standard,
   },
   {
-    id: "plan-b",
-    name: "プランB（入居一時金設定方式）",
-    campaign: false,
-    deposit: "210万円",
-    monthlyFee: {
-      standard: "68,000円",
-      premium: "88,000円",
-    },
-    includes: [
-      "家賃（非課税）",
-      "管理費（非課税）",
-      "水光熱費",
-      "食費",
-      "日常生活支援費",
+    id: "plan-seasonal",
+    name: "夏季・冬季の料金",
+    description: "夏季・冬季は光熱費が追加",
+    monthlyTotal: monthlyFees.rent + monthlyFees.meals.monthly + monthlyFees.utilities.seasonal,
+    breakdown: [
+      { item: "家賃", amount: monthlyFees.rent, unit: "円" },
+      { item: "食費（月額）", amount: monthlyFees.meals.monthly, unit: "円", note: "朝350円・昼550円・夕550円" },
+      { item: "光熱費", amount: monthlyFees.utilities.seasonal, unit: "円", note: "通常より+1,500円" },
     ],
-    notes: "※入居一時金は非課税で、退去時に返還制度があります",
-  },
-  {
-    id: "plan-c",
-    name: "プランC（入居一時金設定方式）",
-    campaign: false,
-    deposit: "450万円",
-    monthlyFee: {
-      standard: "48,000円",
-      premium: "68,000円",
-    },
-    includes: [
-      "家賃（非課税）",
-      "管理費（非課税）",
-      "水光熱費",
-      "食費",
-      "日常生活支援費",
-    ],
-    notes: "※入居一時金は非課税で、退去時に返還制度があります",
+    total: monthlyFees.rent + monthlyFees.meals.monthly + monthlyFees.utilities.seasonal,
   },
 ];
 
@@ -60,12 +45,16 @@ export const additionalFees = {
   title: "その他の費用",
   items: [
     {
+      name: "日用品費",
+      description: "都度（実費）",
+    },
+    {
       name: "障害者総合支援法による利用者負担額",
       description: "所得に応じて1割負担（上限あり）",
     },
     {
       name: "日常生活費",
-      description: "お小遣い、日用品購入費など（実費）",
+      description: "お小遣いなど（実費）",
     },
     {
       name: "医療費",

@@ -8,6 +8,8 @@ const overviewItems = [
   { label: "支援体制", value: overviewData.supportSystem },
   { label: "利用料の支払い方式", value: overviewData.paymentMethod },
   { label: "福祉サービス", value: overviewData.welfareService },
+  { label: "サービス内容", value: `${overviewData.services.groupLiving.name} ${overviewData.services.groupLiving.capacity}名（男性${overviewData.services.groupLiving.breakdown.male}名、女性${overviewData.services.groupLiving.breakdown.female}名）、${overviewData.services.shortStay.name} ${overviewData.services.shortStay.capacity}名` },
+  { label: "スタッフ体制", value: `管理者${overviewData.staff.manager}名、サービス管理責任者${overviewData.staff.serviceManager}名、${overviewData.staff.supportStaff}、${overviewData.staff.caregiver}` },
   { label: "事業所番号", value: overviewData.facilityNumber },
   { label: "土地建物の所有形態", value: overviewData.ownership },
   { label: "事業主体", value: overviewData.operator },
@@ -19,7 +21,7 @@ export default function Overview() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            グループホーム朝日 概要
+            グループホームあさひ 概要
           </h2>
         </div>
 

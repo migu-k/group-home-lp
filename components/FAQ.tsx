@@ -19,7 +19,7 @@ export default function FAQ() {
             よくある質問
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            グループホーム朝日に関するよくある質問と回答をご紹介します。
+            グループホームあさひに関するよくある質問と回答をご紹介します。
           </p>
         </div>
 

@@ -7,6 +7,7 @@ import Flow from "@/components/Flow";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Overview from "@/components/Overview";
+import Espowar from "@/components/Espowar";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <Overview />
+      <Espowar />
       <Location />
     </>
   );

@@ -10,7 +10,7 @@ export default function Testimonials() {
             お客様の声
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            グループホーム朝日をご利用いただいている
+            グループホームあさひをご利用いただいている
             <br />
             利用者様とご家族様からの声をご紹介します。
           </p>

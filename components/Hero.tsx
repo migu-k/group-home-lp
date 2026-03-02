@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://as-heim.com/lp/kunitachi/img/mv_bg_pc.jpg"
-          alt="グループホーム朝日 背景"
+          alt="グループホームあさひ 背景"
           fill
           className="object-cover opacity-20"
           priority
@@ -26,13 +26,16 @@ export default function Hero() {
           </p>
           <div className="bg-white/95 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-lg mb-8 border border-warm-200">
             <p className="text-2xl md:text-3xl font-bold text-accent-600 mb-2">
-              居室限定キャンペーン
+              ご利用料金
             </p>
             <p className="text-lg md:text-xl text-gray-700">
-              月額利用料 98,000円～（月払い方式の場合）
+              通常月：89,000円（家賃37,000円 + 食費43,500円 + 光熱費8,500円）
             </p>
             <p className="text-lg md:text-xl text-gray-700">
-              入居一時金 0円～450万円（入居一時金設定方式の場合）
+              夏季・冬季：90,500円（光熱費+1,500円）
+            </p>
+            <p className="text-sm text-gray-600 mt-2">
+              ※日用品費は都度（実費）
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto mb-8">

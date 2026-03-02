@@ -48,7 +48,7 @@ export default function Flow() {
             ご入居までの流れ
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            グループホーム朝日へのご入居までの流れをご説明します。
+            グループホームあさひへのご入居までの流れをご説明します。
             <br />
             不明な点がございましたら、お気軽にお問い合わせください。
           </p>

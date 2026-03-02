@@ -33,7 +33,7 @@ export default function System() {
             受け入れ体制
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            グループホーム朝日では、利用者様が安心して生活できるよう、
+            グループホームあさひでは、利用者様が安心して生活できるよう、
             <br />
             充実した受け入れ体制を整えています。
           </p>
@@ -53,16 +53,15 @@ export default function System() {
               充実したスタッフ体制
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              グループホーム朝日では、生活支援員を中心に、看護師、相談員、機能訓練指導員など、多職種のスタッフが連携して支援を行っています。定期的な研修や勉強会を通じて、スタッフのスキル向上にも取り組んでいます。
+              グループホームあさひでは、管理者、サービス管理責任者を中心に、生活支援員、世話人など、専門的な知識と経験を持ったスタッフが連携して支援を行っています。定期的な研修や勉強会を通じて、スタッフのスキル向上にも取り組んでいます。
             </p>
             <div className="bg-white rounded-lg p-6 shadow-md border border-warm-200">
               <h4 className="font-semibold text-gray-900 mb-3">スタッフ体制</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>• 生活支援員（24時間体制）</li>
-                <li>• 看護師（常勤・非常勤）</li>
-                <li>• 相談員（常勤）</li>
-                <li>• 機能訓練指導員（非常勤）</li>
-                <li>• 管理栄養士（非常勤）</li>
+                <li>• 管理者：1名</li>
+                <li>• サービス管理責任者：1名</li>
+                <li>• 生活支援員</li>
+                <li>• 世話人</li>
               </ul>
             </div>
           </div>

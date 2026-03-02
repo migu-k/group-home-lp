@@ -15,7 +15,7 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            グループホーム朝日で
+            グループホームあさひで
             <br />
             「望む暮らし」の実現をしませんか
           </h2>
@@ -27,7 +27,7 @@ export default function Features() {
               地域に根ざした暮らし
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              石川県七尾市に位置する「グループホーム朝日」は、能登半島の自然に囲まれた環境で、ショッピングモールや公園、多くの学校など自然と教育・文化が調和する環境が広がっています。ホームは地上3階建てで、テラスや屋上庭園を備え、ご入居者が思いおもいの時間をお過ごしいただける、癒しの空間をご用意しております。
+              石川県七尾市に位置する「グループホームあさひ」は、能登半島の自然に囲まれた環境で、ショッピングモールや公園、多くの学校など自然と教育・文化が調和する環境が広がっています。ホームは地上3階建てで、テラスや屋上庭園を備え、ご入居者が思いおもいの時間をお過ごしいただける、癒しの空間をご用意しております。
             </p>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
@@ -41,10 +41,10 @@ export default function Features() {
 
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              グループホーム朝日の支援体制
+              グループホームあさひの支援体制
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              「グループホーム朝日」では、専門的な知識と経験を持ったスタッフが配置され、ご入居者のお身体の状態や希望に合わせた個別支援計画をご提案します。生活支援スタッフ他多職種が連携して生活に活きる支援を日常にとりいれ、ADL（日常生活動作）の維持・向上を目指します。
+              「グループホームあさひ」では、専門的な知識と経験を持ったスタッフが配置され、ご入居者のお身体の状態や希望に合わせた個別支援計画をご提案します。生活支援スタッフ他多職種が連携して生活に活きる支援を日常にとりいれ、ADL（日常生活動作）の維持・向上を目指します。
             </p>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
