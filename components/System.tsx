@@ -42,7 +42,7 @@ export default function System() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/images/image%20copy%202.png"
+              src="/images/image copy 2.png"
               alt="スタッフ体制"
               fill
               className="object-cover"

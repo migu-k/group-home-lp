@@ -49,7 +49,7 @@ export default function Features() {
             </p>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/images/image%20copy.png"
+                src="/images/image copy.png"
                 alt="支援体制"
                 fill
                 className="object-cover"
