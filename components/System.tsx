@@ -42,10 +42,11 @@ export default function System() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999e8?w=800&q=80"
+              src="/images/image%20copy%202.png"
               alt="スタッフ体制"
               fill
               className="object-cover"
+              unoptimized
             />
           </div>
           <div className="flex flex-col justify-center">

@@ -31,10 +31,11 @@ export default function Features() {
             </p>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e4?w=800&q=80"
+                src="/images/image.png"
                 alt="地域の風景"
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
           </div>
@@ -48,10 +49,11 @@ export default function Features() {
             </p>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&q=80"
+                src="/images/image%20copy.png"
                 alt="支援体制"
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
           </div>
