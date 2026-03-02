@@ -5,7 +5,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { facilityData } from "@/data/facility";
 
 const navItems = [
-  { label: "グループホーム朝日の特長", href: "#features" },
+  { label: "特徴", href: "#features" },
   { label: "料金", href: "#pricing" },
   { label: "受け入れ体制", href: "#system" },
   { label: "ご入居までの流れ", href: "#flow" },
